@@ -1,0 +1,21 @@
+'''
+Python 3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+my_bar is Katherine
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    my_bar is Katherine
+NameError: name 'my_bar' is not defined
+my_var = katherine
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    my_var = katherine
+NameError: name 'katherine' is not defined
+my_var = "katherine"
+print(my_var)
+katherine
+my_var = "Lily"
+print (my_var)
+Lily
+
+'''

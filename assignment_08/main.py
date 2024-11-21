@@ -30,13 +30,13 @@ while True:
     def find(file_variable, search_variable):
         with open(file_variable, 'r') as file:
             content = file.read()
-    # now check to the file is in hte memory buffer as content 
+    # now check to the file is in the memory buffer as content 
 
     # next check to see if the search_variable is in the content buffer: 
             if search_variable in content: 
             
             # if the file print that it is in the file AND 
-            # if user wants to see the entries for teh term 
+            # if user wants to see the entries for the term 
                 print(f'Your search term {search_variable} exits in the {file_variable} file!')
                 see_entries = input('Would you like to see the entries? (y or n)?')
 
